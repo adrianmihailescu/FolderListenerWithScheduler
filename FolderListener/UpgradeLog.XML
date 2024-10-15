@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FolderListener">
+</Property><Property Name="Solution File" Value="E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\FolderListener.sln">
+</Property><Property Name="User Options File" Value="E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\FolderListener.suo">
+</Property><Property Name="Date" Value="Thursday, November 15, 2007">
+</Property><Property Name="Time" Value="11:42 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FolderListener.sln" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FolderListener.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FolderListener.suo" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FolderListener.suo">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FolderListener.csproj" Description="Project file successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FolderListener.csproj">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FolderListener.csproj.user" Description="Project user file successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FolderListener.csproj.user">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FileWatchForm1.cs" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FileWatchForm1.cs">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="options.cs" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\options.cs">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="App.ico" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FileWatchForm1.resx" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\FileWatchForm1.resx">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="options.resx" Description="File successfully backed up as E:\tools\Tools\FolderListener\Source Code -FolderListener-1.0\FolderListener-1.0\Backup\options.resx">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FolderListener.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FolderListener" Source="FolderListener.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FolderListener.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FolderListener.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FolderListener" Source="FolderListener.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
