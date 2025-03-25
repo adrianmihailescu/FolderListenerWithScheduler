@@ -16,8 +16,8 @@ using System.Net;
 public partial class _Default : System.Web.UI.Page
 {
     string strProceduraCitireDinFisierLog = "SP_CITESTE_FISIER_TEXT";
-    string strConnectionStringFisierText = "Server=dcsv75; Database=RBD; User ID=user_rbd; Password=!@#rbd$%^";
-    string strConnectionStringRBD = "Server=dcsv75; Database=RBD; User ID=user_rbd; Password=!@#rbd$%^";
+    string strConnectionStringFisierText = "Server=XXX; Database=YYY; User ID=ZZZ; Password=TTT";
+    string strConnectionStringRBD = "Server=XXX; Database=YYY; User ID=ZZZ; Password=TTT";
 
     DateTime dtDataVerificare = DateTime.Now;
 
