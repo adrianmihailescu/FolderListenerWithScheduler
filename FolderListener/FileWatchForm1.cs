@@ -434,39 +434,14 @@ namespace FileWatch
         /// <returns></returns>
         protected string buildInsertQueryInIstoricImport(string strData, string strFileName, string strLinie)
         {
-            string strTemp = String.Empty;
+            	StringBuilder strTemp = new StringBuilder();
 
-            /*
-            // citesc doar liniile care incep cu RLRA
-            // date despre data si fisier
-            strTemp += " insert into [rbd_istoric_import_detaliu] values (";
-            strTemp += "'" + strData + "'"; // data importului
-            strTemp += ", '" + strFileName + "'"; // numele fisierului
-            // start coloane fisier
-            strTemp += ", 'RLRA'";
-            strTemp += ", '" + strLinie.Substring(5, 26) + "'"; // cnum, start 5, end 31, 26 caractere;
-            strTemp += ", '" + strLinie.Substring(31, 100).Replace("'", "''") + "'"; // nume1
-            strTemp += ", '" + strLinie.Substring(131, 50).Replace("'", "''") + "'"; // nume2
-            strTemp += ", '" + strLinie.Substring(181, 21) + "'"; // suma1
-            strTemp += ", '" + strLinie.Substring(202, 10) + "'"; // data1
-            strTemp += ", '" + strLinie.Substring(212, 10) + "'"; // data2;
-            strTemp += ", '" + strLinie.Substring(222, 2) + "'"; // doua caractere;
-            strTemp += ", '" + strLinie.Substring(224, 10) + "'"; // data3;
-            strTemp += ", '" + strLinie.Substring(234, 2) + "'"; // sistem_rating;
-            strTemp += ", '" + strLinie.Substring(241, 2) + "'"; // rating;
-            strTemp += ", '" + strLinie.Substring(246, 40) + "'"; // user1;
-            strTemp += ", '" + strLinie.Substring(286, 40) + "'"; // user2;
-            strTemp += ", '" + strLinie.Substring(326, 50) + "'"; // cnum2;
-            // end coloane fisier
-            strTemp += ")";
-            */
-
-            // apoi inserez si linia importata in fisierul de istoric
-            strTemp += "; insert into [rbd_istoric_import_linie] values (";
-            strTemp += "'" + strData + "'"; // data importului;
-            strTemp += ", '" + strFileName + "'"; // numele fisierului importat;
-            strTemp += ", '" + strLinie.Replace("'", "''") + "'"; // linia importata;
-            strTemp += "); ";
+		// apoi inserez si linia importata in fisierul de istoric
+		strTemp.Append("; insert into [rbd_istoric_import_linie] values (");
+		strTemp.Append("'").Append(strData).Append("'"); // data importului;
+		strTemp.Append(", '").Append(strFileName).Append("'"); // numele fisierului importat;
+		strTemp.Append(", '").Append(strLinie.Replace("'", "''")).Append("'"); // linia importata;
+		strTemp.Append("); ");
 
             return strTemp;
         }
