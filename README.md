@@ -1,2 +1,3 @@
 # A Windows Forms scheduler to listen for files and import in an Sql Server database
-![image](https://github.com/user-attachments/assets/0039a2dd-9b55-4a27-9af0-8b24a219fb81)
+![image](https://github.com/user-attachments/assets/efa6cda0-c9d0-4570-9c96-de0739fd202e)
+
